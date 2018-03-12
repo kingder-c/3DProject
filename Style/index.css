@@ -1,0 +1,60 @@
+﻿body {
+}
+.header {
+    top: 0px;
+    width: 100%;
+    float: left;
+    position: absolute;
+    background-color: transparent;
+}
+.Logo_img {
+    width: 100%;
+    
+}
+.toolbar {
+    width: 500px;
+    height: 40px;
+    position: absolute;
+    right: 100px;
+    top: 100px;
+}
+.img_1 {
+    background-image: url(../images/mainpage/toolbar/清空.png);
+    
+}
+    .img_1:hover {
+        background-image: url(../images/mainpage/toolbar/清空-触碰.png);
+    }
+.img_2 {
+    background-image: url(../images/mainpage/toolbar/还原.png);
+}
+
+    .img_2:hover {
+        background-image: url(../images/mainpage/toolbar/还原-触碰.png);
+    }
+.img_3 {
+    background-image: url(../images/mainpage/toolbar/方向-1.png);
+}
+
+    .img_3:hover {
+        background-image: url(../images/mainpage/toolbar/方向.png);
+    }
+.img_4 {
+    background-image: url(../images/mainpage/toolbar/透明度.png);
+}
+
+    .img_4:hover {
+        background-image: url(../images/mainpage/toolbar/透明度-触碰.png);
+    }
+.img_5 {
+    background-image: url(../images/mainpage/toolbar/图层.png);
+}
+
+    .img_5:hover {
+        background-image: url(../images/mainpage/toolbar/图层-触碰.png);
+    }
+.tool_img {
+    width: 67px;
+    height: 40px;
+    display: inline;
+}

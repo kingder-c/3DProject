@@ -7,7 +7,8 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <!-- Make the application on mobile take up the full browser screen and disable user scaling. -->
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, minimum-scale=1, user-scalable=no">
-    <title>Hello World!</title>
+    <title>鱼台三维系统</title>
+    <link href="Style/index.css" rel="stylesheet" />
     <script src="Script/cesium/Cesium.js"></script>
     <style>
         @import url(Style/Widgets/widgets.css);
@@ -23,5 +24,19 @@
 </head>
 <body>
     <div id="cesiumContainer"></div>
+    <!--顶部Logo-->
+    <div class="header">
+            <img class="Logo_img" src="images/mainpage/Logo.png"/>
+    </div>
+
+    <!--工具条-->
+    <div class="toolbar">
+        <div class="img_1 tool_img" ></div>
+        <div class="img_2 tool_img"></div>
+        <div class="img_3 tool_img"></div>
+        <div class="img_4 tool_img"></div>
+        <div class="img_5 tool_img"></div>
+    </div>
+    <script src="Script/init.js"></script>
 </body>
 </html>
